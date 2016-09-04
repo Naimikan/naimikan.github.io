@@ -1,0 +1,81 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.noMarginTop {
+	margin-top: 0;
+}
+
+.marginBottom10 {
+	margin-bottom: 10px;
+}
+
+.marginBottom20 {
+	margin-bottom: 20px;
+}
+
+.noAnchorStyles:hover {
+	text-decoration: none;
+}
+
+.header-info {
+	background: linear-gradient(141deg, #1abc9c 50%, #16a085 89%);
+	height: 15em;
+	margin-bottom: 40px;
+}
+
+.photo-container {
+	height: 15em;
+	line-height: 15em;
+	display: table-cell;
+	vertical-align: middle;
+
+	/*padding-left: 10em;
+	padding-right: 2em;*/
+}
+
+.separator {
+	height: 15em;
+	line-height: 15em;
+	display: table-cell;
+
+	padding: 0 10px;
+}
+
+.profile-info-container {
+	color: #FFFFFF;
+
+	height: 15em;
+	line-height: 15em;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.profile-photo {
+	height: 12em;
+	width: 12em;
+}
+
+.icons-container {
+	margin-top: 30px;
+}
+
+.icons-container a:not(:last-child) {
+	padding-right: 0.5em;
+}
+
+.icons-container .social-icon {
+	height: 36px;
+	width: 36px;
+}
+
+.project-box {
+	border-radius: 4px;
+	border: 1px solid #EEEEEE;
+	margin-bottom: 10px;
+}
+
+/* Override Bootstrap classes */
+.img-thumbnail {
+	padding: 10px !important;
+}
