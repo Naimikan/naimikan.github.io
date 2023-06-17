@@ -23,9 +23,8 @@ jobs:
           npm run export
           touch dist/.nojekyll
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.2
         with:
           branch: master
           folder: dist
-
